@@ -1,14 +1,48 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "realtimes": [
+    {
+      "id": "opopular",
+      "audiencia": {
+        "tipo": "geral",
+        "qtdPageView": 1500,
+        "qtdPageViewMateria": 650,
+        "qtdMateria": 50,
+        "qtdUsuarioUnico": 550,
+        "qtdMediaVisita": 2.72,
+        "qtdMediaLeituraSeg": 40
+      },
+      "origem": {
+        "qtdDireto": 400,
+        "qtdSocial": 350,
+        "qtdBusca": 200
+      },
+      "dispositivo": {
+        "qtdMobile": 400,
+        "qtdDesktop": 350,
+        "qtdTablet": 200
+      },
+      "autor": [
+        {
+          "nome": "Autor 1",
+          "qtdMateria": 2,
+          "qtdPageview": 70
+        },
+        {
+          "nome": "Autor 2",
+          "qtdMateria": 1,
+          "qtdPageview": 23
+        },
+        {
+          "nome": "Autor 3",
+          "qtdMateria": 6,
+          "qtdPageview": 178
+        },
+        {
+          "nome": "Autor 4",
+          "qtdMateria": 10,
+          "qtdPageview": 670
+        }
+      ]
+    }
+  ]
 }
