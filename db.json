@@ -2,25 +2,57 @@
   "realtimes": [
     {
       "id": "opopular",
-      "audiencia": {
-        "tipo": "geral",
-        "qtdPageView": 1500,
-        "qtdPageViewMateria": 650,
-        "qtdMateria": 50,
-        "qtdUsuarioUnico": 550,
-        "qtdMediaVisita": 2.72,
-        "qtdMediaLeituraSeg": 40
-      },
-      "origem": {
-        "qtdDireto": 400,
-        "qtdSocial": 350,
-        "qtdBusca": 200
-      },
-      "dispositivo": {
-        "qtdMobile": 400,
-        "qtdDesktop": 350,
-        "qtdTablet": 200
-      },
+      "audiencia": [
+        {
+          "tipo": "geral",
+          "qtdPageView": 1500,
+          "qtdPageViewMateria": 650,
+          "qtdMateria": 50,
+          "qtdUsuarioUnico": 550,
+          "qtdMediaVisita": 2.72,
+          "qtdMediaLeituraSeg": 40
+        },
+        {
+          "tipo": "editoria",
+          "editoria": "cidades",
+          "qtdPageView": 1500,
+          "qtdPageViewMateria": 650,
+          "qtdMateria": 50,
+          "qtdUsuarioUnico": 550,
+          "qtdMediaVisita": 2.72,
+          "qtdMediaLeituraSeg": 40
+        }
+      ],
+      "origem": [
+        {
+          "tipo": "geral",
+          "qtdDireto": 400,
+          "qtdSocial": 350,
+          "qtdBusca": 200
+        },
+        {
+          "tipo": "editoria",
+          "editoria": "cidades",
+          "qtdDireto": 400,
+          "qtdSocial": 350,
+          "qtdBusca": 200
+        }
+      ],
+      "dispositivo": [
+        {
+          "tipo": "geral",
+          "qtdMobile": 400,
+          "qtdDesktop": 350,
+          "qtdTablet": 200
+        },
+        {
+          "tipo": "editoria",
+          "editoria": "cidades",
+          "qtdMobile": 400,
+          "qtdDesktop": 350,
+          "qtdTablet": 200
+        }
+      ],
       "autor": [
         {
           "nome": "Autor 1",
@@ -41,6 +73,68 @@
           "nome": "Autor 4",
           "qtdMateria": 10,
           "qtdPageview": 670
+        }
+      ],
+      "producao": [
+        {
+          "editoria": "cidades",
+          "qtdMateria": 10,
+          "qtdPageview": 350
+        },
+        {
+          "editoria": "economia",
+          "qtdMateria": 3,
+          "qtdPageview": 143
+        },
+        {
+          "editoria": "politica",
+          "qtdMateria": 6,
+          "qtdPageview": 256
+        }
+      ],
+      "perfilAcesso": [
+        {
+          "tipo": "geral",
+          "qtdVisitante": 200,
+          "qtdConvidado": 150,
+          "qtdAssinante": 50
+        },
+        {
+          "tipo": "editoria",
+          "editoria": "cidades",
+          "qtdVisitante": 100,
+          "qtdConvidado": 70,
+          "qtdAssinante": 25
+        }
+      ],
+      "origemMateria": [
+        {
+          "tipo": "geral",
+          "qtdCasa": 10,
+          "qtdAgencia": 20,
+          "qtdOutro": 5
+        },
+        {
+          "tipo": "editoria",
+          "editoria": "cidades",
+          "qtdCasa": 10,
+          "qtdAgencia": 20,
+          "qtdOutro": 5
+        }
+      ],
+      "redeSocial": [
+        {
+          "tipo": "geral",
+          "qtdFacebook": 20,
+          "qtdInstagram": 5,
+          "qtdTwitter": 5
+        },
+        {
+          "tipo": "editoria",
+          "editoria": "cidades",
+          "qtdFacebook": 20,
+          "qtdInstagram": 5,
+          "qtdTwitter": 5
         }
       ]
     }
