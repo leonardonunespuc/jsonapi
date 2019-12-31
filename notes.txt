@@ -1,0 +1,47 @@
+d_usuario
+- data_criacao
+
+
+>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+d_canal
+- id_canal
+- tipo_canal
+
+
+f_conversao
+- id_tempo
+- id_canal
+- qtd_novo_visitante
+- qtd_novo_assinante
+- qtd_novo_convidado
+
+
+meta
+- id
+- nome
+
+performance
+- id
+- id_meta
+- id_tempo
+- tipo (meta, realizado)
+- valor
+
+
+
+
+
+
+-> alterar tabela de usuarios, adicionar data de criacao, setar valor padrao para registros existentes
+-> alterar consolidacao para gravar a data de criacao
+-> gravar a quantidade de novos usuários por tipo (Visitante, Assinante, Convidado)
+-> no momento da consolidacao consultar a tabela de Usuário para identificar quais são novos baseado na data de criacao
+-> se nao existir na tabela ou se a data de criacao é na hora atual, usuario é considerado NOVO
+
+-> novo usuarios Assinante e Convidado, obter das novas tabelas de canais de venda, quando se tornou assinante, quando converteu em lead?
+    -> olhar a data do evento
+
+
