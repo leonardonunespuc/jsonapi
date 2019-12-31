@@ -209,7 +209,7 @@
           "qtdViewMobile": 340,
           "qtdViewDesktop": 230,
           "qtdViewTablet": 10
-        },
+        }
       ],
       "autor": [
         {
@@ -352,7 +352,7 @@
           "editoria": "cidades",
           "posicao": 3,
           "qtd": 32
-        },
+        }
       ]
     }
   ]
