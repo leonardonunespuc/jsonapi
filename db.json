@@ -4,8 +4,9 @@
       "id": "opopular",
       "audiencia": [
         {
-          "editoria": "",
+          "editoria": "geral",
           "qtdView": 1500,
+          "qtdViewCapa": 700,
           "qtdViewMateria": 650,
           "qtdMateria": 50,
           "qtdMediaVisita": 2.72,
@@ -36,6 +37,7 @@
         {
           "editoria": "cidades",
           "qtdView": 350,
+          "qtdViewCapa": 150,
           "qtdViewMateria": 280,
           "qtdMateria": 10,
           "qtdMediaVisita": 2.72,
@@ -66,6 +68,7 @@
         {
           "editoria": "economia",
           "qtdView": 120,
+          "qtdViewCapa": 50,
           "qtdViewMateria": 90,
           "qtdMateria": 5,
           "qtdMediaVisita": 2.72,
@@ -96,6 +99,7 @@
         {
           "editoria": "politica",
           "qtdView": 300,
+          "qtdViewCapa": 100,
           "qtdViewMateria": 210,
           "qtdMateria": 15,
           "qtdMediaVisita": 2.72,
@@ -151,8 +155,9 @@
       "id": "jornaldotocantins",
       "audiencia": [
         {
-          "editoria": "",
+          "editoria": "geral",
           "qtdView": 1500,
+          "qtdViewCapa": 700,
           "qtdViewMateria": 650,
           "qtdMateria": 50,
           "qtdMediaVisita": 2.72,
@@ -183,6 +188,7 @@
         {
           "editoria": "cidades",
           "qtdView": 350,
+          "qtdViewCapa": 150,
           "qtdViewMateria": 280,
           "qtdMateria": 10,
           "qtdMediaVisita": 2.72,
