@@ -1,0 +1,7 @@
+#!/bin/bash
+FILES="$(find /data/event/acao/2020/07/03 -name '*.json')"
+for f in $FILES
+do
+  echo "Processing $f"
+  cat "$f" | kafka-console-producer.sh --broker-list kafka.kafka.svc.cluster.local:9092 --topic analytics-load
+done
